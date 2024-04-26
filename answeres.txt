@@ -1,0 +1,24 @@
+<< Linked Lists >>
+
+1. Linked list is the sequence of elements, where each elemnt is called 'Node' and contains a pointer to a next element(Node).
+2. Advantages: do not require memory allocation and size declaring. Disadvantages: user can not directly acces an element and have to go through thr whole list,
+   that makes it less efficient in time scale in comparison with basic arrays.
+3. Linked lists are used to work with data structures for example stacks and queues.
+
+
+
+<< Stacks >>
+
+1. Stacks are like the Linked lists, but the are working by the different concept(Add the element to the end and remove the first element)
+2. In overall stacks have the same advantages and disadvantages as Linked lists but methods as (pop, push) work differently.
+3. Stacks can be used to work with reversed data.
+
+
+
+<< Queues >>
+
+1. Queues are also simillar to linked lists but as well stacks they have a different concept(The first element that was added will be the first one to be removed,
+   pretty simillar to a real shop queue where the first in line(closest to the cashier) is gonna pe the first one to pass and leave.
+2. Queues can assure async work, that means that the taks sender is not blocked while he is waiting for the response from the different component, that make it efficient.
+   However there are some dissadvantages of using queues, for example difficulty with management, you have to watch it and make sure that it wont go over its size.
+3. Queues can be used to accomplish some async tasks or to manage tasks, for example web servers can use queues to handle clients in the order they are received.
